@@ -1,17 +1,7 @@
-# flutter_lab4_app
+ЛАБАРАТОРНАЯ 4-5
 
-A new Flutter project.
+ЧУМАЧЕНКО МИХАИЛ ИСП-242
 
-## Getting Started
+ДОБАВЛЕНИЕ АССЕТОВ,ВЫНЕСЕНИЕ ЛОГИКИ КОДА ВО ВНЕШНИЕ КЛАССЫ И ФАЙЛЫ И ФУНКЦИИ , ЛОГИКУ КУБИКА
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Вынесение виджетов в отдельные файлы делает код структурированным и удобным для командной работы и тестирования, иначе main.dart превратится в огромный, нечитаемый файл. BuildContext - это ссылка на положение виджета в дереве элементов, которая позволяет ему находить нужные данные, темы и медиазапросы выше по структуре. StatelessWidget подходит для неизменяемых элементов вроде иконок, а StatefulWidget нужен для динамически обновляемых компонентов, например, переключателей или форм ввода. Создание объекта Random() на уровне файла экономит ресурсы процессора и памяти, а также обеспечивает правильную случайность чисел, предотвращая лишние инициализации при каждом вызове метода.
